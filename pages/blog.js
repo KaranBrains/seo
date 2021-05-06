@@ -17,7 +17,7 @@ export default function Blog({ posts }) {
         description={siteMetadata.description}
         url={`${siteMetadata.siteUrl}/blog`}
       />
-      <ListLayout posts={posts} title="All Posts" />
+      <ListLayout posts={posts} title="All Blogs" />
     </>
   )
 }

@@ -62,7 +62,7 @@
 
   <item>
     <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/pictures-of-canada</guid>
-    <title>O Canada</title>
+    <title>Sample Blog</title>
     <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/pictures-of-canada</link>
     <description>The scenic lands of Canada featuring maple leaves, snow-capped mountains, turquoise lakes and Toronto. Take in the sights in this photo gallery exhibition and see how easy it is to replicate with some MDX magic and tailwind classes.</description>
     <pubDate>Sat, 15 Jul 2017 00:00:00 GMT</pubDate>
@@ -72,7 +72,7 @@
 
   <item>
     <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/code-sample</guid>
-    <title>Sample .md file</title>
+    <title>Test Blog</title>
     <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/code-sample</link>
     <description>Example of a markdown file with code blocks and syntax highlighting</description>
     <pubDate>Tue, 08 Mar 2016 00:00:00 GMT</pubDate>

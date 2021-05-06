@@ -1,0 +1,79 @@
+html,
+body {
+  font-size: 100%;
+  overflow-x: hidden !important;
+  scroll-behavior: smooth;
+}
+
+/* Root variables */
+:root {
+  --primaryColor: #1e4c6b;
+  --secondaryColor: #00aff5;
+  --tertiaryColor: #e0f6ff;
+}
+
+/* Utility Classes */
+a {
+  text-decoration: none !important;
+}
+.card {
+  border: none !important;
+  background: transparent !important;
+}
+.text-primaryColor {
+  color: var(--primaryColor) !important;
+}
+.text-secondaryColor {
+  color: var(--secondaryColor);
+}
+/* Background color */
+.bg-primaryColor{
+  background: var(--primaryColor) !important;
+}
+.bg-secondaryColor{
+  background: var(--secondaryColor);
+}
+.bg-tertiaryColor{
+  background: var(--tertiaryColor) !important;
+}
+
+
+
+/* Form Classes */
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 22px 20px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--primaryColor);
+  background-color: var(--tertiaryColor) !important;
+  background-clip: padding-box;
+  border: none !important;
+  border-radius: 10px;
+}
+
+.grey-hover {
+  font-size: 18px;
+  transition: all 0.3s ease-in;
+}
+.grey-hover:hover {
+  background-color: rgb(237, 237, 237);
+}
+.btn-blue {
+  padding: 0px 24px;
+  border: 1px solid transparent;
+  border-radius: 48px;
+  font-size: 16px;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  height: 48px;
+  min-width: 48px;
+  transition: all 0.5s ease-in;
+}
+.btn-blue:hover {
+  background: #138fc1;
+}
