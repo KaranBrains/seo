@@ -1,6 +1,5 @@
 import '@/css/tailwind.css'
 import '../styles/global.css'
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import { MDXProvider } from '@mdx-js/react'
 import { ThemeProvider } from 'next-themes'
 import { DefaultSeo } from 'next-seo'

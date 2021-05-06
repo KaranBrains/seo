@@ -5,7 +5,6 @@ import { PageSeo } from '@/components/SEO'
 
 export async function getStaticProps() {
   const posts = await getAllFilesFrontMatter('blog')
-
   return { props: { posts } }
 }
 

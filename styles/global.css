@@ -7,9 +7,9 @@ body {
 
 /* Root variables */
 :root {
-  --primaryColor: #1e4c6b;
-  --secondaryColor: #00aff5;
-  --tertiaryColor: #e0f6ff;
+  --primaryColor: #eff3f5;
+  --secondaryColor: #f3f6f7;
+  --tertiaryColor: #020c0f;
 }
 
 /* Utility Classes */
@@ -48,7 +48,7 @@ a {
   font-weight: 400;
   line-height: 1.5;
   color: var(--primaryColor);
-  background-color: var(--tertiaryColor) !important;
+  background-color: rgba(31, 41, 55, var(--tw-bg-opacity)) !important;
   background-clip: padding-box;
   border: none !important;
   border-radius: 10px;
@@ -59,7 +59,7 @@ a {
   transition: all 0.3s ease-in;
 }
 .grey-hover:hover {
-  background-color: rgb(237, 237, 237);
+  background-color: rgb(12, 1, 1);
 }
 .btn-blue {
   padding: 0px 24px;
@@ -68,7 +68,9 @@ a {
   font-size: 16px;
   line-height: 1;
   text-align: center;
+  color: white;
   text-decoration: none;
+  background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
   cursor: pointer;
   height: 48px;
   min-width: 48px;
@@ -76,4 +78,20 @@ a {
 }
 .btn-blue:hover {
   background: #138fc1;
+}
+::-webkit-scrollbar{
+  width: 5px;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: white;
+  -webkit-box-shadow: 0 0 0px 1000px #138fc1 inset;
+  transition: background-color 5000s ease-in-out 0s;
 }
